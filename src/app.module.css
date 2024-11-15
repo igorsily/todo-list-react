@@ -1,0 +1,46 @@
+.content {
+  max-width: 46rem;
+  width: 100%;
+
+  margin: 0 auto;
+}
+
+.containerTask {
+  display: flex;
+  flex: 1;
+  margin-top: ();
+  justify-content: space-between;
+  gap: 0.5rem;
+  transform: translateY(-50%);
+}
+
+.containerTask input {
+  color: var(--gray-300);
+  padding: 0.5rem;
+  background: var(--gray-500) !important;
+  border-radius: 8px;
+  border: 1px solid var(--gray-700);
+  width: 100%;
+}
+
+.containerTask input:focus {
+  color: var(--white);
+  outline: transparent;
+  box-shadow: 0 0 0 2px var(--purple-200);
+}
+
+.containerTask button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background: var(--blue-700);
+  border-radius: 8px;
+  border: 0;
+  padding: 1rem;
+  color: var(--white);
+}
+
+.containerTask button:hover {
+  background: var(--blue-200);
+}
