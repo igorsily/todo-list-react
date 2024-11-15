@@ -15,15 +15,7 @@ function App() {
 
   const [taskText, setTaskText] = useState("")
 
-  const [tasks, setTasks] = useState<TaskProps[]>([{
-    id: 1,
-    isChecked: true,
-    content: "Teste 1"
-  }, {
-    id: 2,
-    isChecked: false,
-    content: "Teste 2"
-  }])
+  const [tasks, setTasks] = useState<TaskProps[]>([])
 
    const handleCreateTaks = () => {
 
